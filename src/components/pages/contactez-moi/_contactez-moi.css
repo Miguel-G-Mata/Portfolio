@@ -1,0 +1,35 @@
+.jumbo{
+    background-image: url('https://www.belle-plagne-premium.com/wp-content/uploads/2017/01/contacts.jpg');
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+
+}
+.modal-position{
+    margin-top: -36%;
+}
+
+ h2, h3{
+  padding-left: 2%;
+}
+
+.button-contact{
+    margin-left: 10%;
+}
+
+.form-group h3{
+color: black;
+text-align: left;
+}
+
+
+.text-center{
+    color: black;
+    font-size: 5rem;
+    text-align: center;
+}
+.text{
+    color: black;
+    font-size: 1.5rem;
+    text-align: left;
+}

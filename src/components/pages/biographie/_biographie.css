@@ -1,0 +1,70 @@
+
+.biographie {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.biographie {
+ 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.texte-biographie{
+    color: #fff;
+    font-size: 100px;
+    margin: -15% 0 0 -20%;
+}
+
+.photo{
+    background-image: url('../../../doc/photo.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width: 50vw;
+    height: 50vh;
+    margin: -15% 0 0 2%; 
+}
+.bio{
+  margin: -10% 0 0 5%;
+  font-size: 1.1rem;
+  text-align: justify;
+  width: 30vw;
+  color: #fff;
+}
+.bio-2{
+  margin: 47% 0 0 -3%;
+  font-size: 1.1rem;
+  text-align: justify;
+  width: 30vw;
+  color: #fff;
+}
+
+@media only screen and (max-width: 960px) {
+  .biographie__container {
+    width: 100%;
+  }
+
+  .texte-biographie{
+    display: none; 
+  }
+
+  .photo, .bio-2{
+    background-size: 50%;
+    width: 80vw;
+    height: 70vh;
+  margin-left: 1%;
+}
+
+.bio{
+  display: none; 
+}
+.bio-2{
+margin-top: 55%;
+}
+
+}
+
+

@@ -1,0 +1,222 @@
+
+h1, .h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 0.2%;
+    color: white;
+
+}
+
+h3, .h3{
+    margin-top: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 0.2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.h1, .h3 {
+    color: black;
+    margin-bottom: 1%;
+}
+.h1 {
+    margin-bottom: -0.5%;
+}
+.texte{
+    font-size: 1rem;
+    text-align: justify;
+    color: white;
+    padding: 15% 5%;
+}
+
+
+.images, .images-2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.images{
+    width: 20%;
+    display: inline-flex; 
+    margin-bottom: 5px; 
+    background-color: #eee; 
+    margin: 0 2% 0 3%;
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.787);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.images-2{
+    width: 50vw;
+    height: 50vh;
+}
+.images-3{
+    width: 40vw;
+    height: 65vh;
+}
+
+.imagesSecundaire{
+    height: 40vh;
+    width: 40vw;
+    display: inline-flex; 
+    margin: 0 0% 1% 6%;
+}
+
+
+.item__img {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 45%;
+    transition: all 0.2s linear;
+    margin: 0% 0 0 0%;
+  }
+  
+.item__img:hover {
+transform: scale(0.9);
+}
+
+.section-2{
+background-color: black;
+height: 140vh;
+padding-top: 25%;
+margin-bottom: -1%;
+}
+.section-2-B{
+    background-color: black;
+    height: 100vh;
+}
+
+.videopage{
+    width: 80%;
+    height: 80%;
+    margin: -3% 0 0 10%;
+}
+
+.grid{
+    height: 100vh;
+	display: grid; /* pour faire la grid / para hacer el grid */
+	grid-template-rows: repeat(10, 1fr); /* pour faire une grille à 3 lignes / para hacer grid de 3 lineas */
+	grid-template-columns: repeat(5, 1fr);/* pour faire une grille à 2 column / para hacer grid de 3 columnas */   
+}
+
+#boite{
+    grid-row: 1/1; 
+    grid-column: 1/6; 
+    width: 100%;
+    height: 90vh;
+    border: solid 1px black;
+}
+
+
+
+#boite-1{
+    background-color:  black;
+    grid-row: 2/2; /* pour positionner dans la grid sur la ligne 1 / para posicionar en grid en linea 1 */
+    grid-column: 1/2; /* pour positionner dans la grid dans le bord de colonne 1 à bord2 / para posicionar en grid en columna borde 1 hasta borde2****/
+    width: 14.5vw;
+    height: 50vh;
+    border: solid 1px black ;
+}
+
+#boite-2{
+    background-color:  black;
+    grid-row: 2/2; 
+    grid-column: 2/3;
+    height: 50vh;
+    width: 35vw;
+    border: solid 1px black;
+}  
+
+#boite-3{  
+    background-color:  black ;
+    grid-row: 2/3; 
+    grid-column: 3/4; 
+    border: solid 1px black;
+    height: 50vh;
+    width: 35vw;
+}
+
+#boite-4{
+    background-color:  black;
+    height: 50vh;
+    width: 14.5vw;
+    grid-row: 2/4; 
+    grid-column: 4/6; 
+    border: solid 1px black ;
+}
+
+  @media only screen and (max-width: 960px) {
+    h1, .h1{
+        font-size: 2rem;
+    }
+    
+    h3, .h3{
+        font-size: 1.5rem;
+    }
+    .texte{
+        font-size: 1.2rem;
+    }
+    .section-2{
+       display: none;
+    }
+    .section-2-B{
+        display: none;
+    }
+
+    .section-3{
+        display: none;
+    }
+    .item__img {
+
+        width: 100%;
+        height: 45%;
+
+      }
+    .videopage{
+        width: 100%;
+        height: 50%;
+        margin: 5% 0 0 0%;
+    }
+
+    #boite{
+        border: none;
+    }
+        
+    #boite-1{
+        grid-row: 2/2;
+        grid-column: 1/6; 
+        width: 100vw;
+        height: 50vh;
+        border: none;
+    }
+    
+    #boite-2{
+        grid-row: 3/3; 
+        grid-column: 1/6;
+        width: 100vw;
+        height: 50vh;
+        border: none;
+    }  
+    
+    #boite-3{  
+        grid-row: 4/4; 
+        grid-column: 1/6;
+        width: 100vw;
+        height: 50vh;
+        border: none;
+    }
+    
+    #boite-4{
+        grid-row: 5/5; 
+        grid-column: 1/6;
+        width: 100vw;
+        height: 50vh;
+        border: none;
+    }
+  
+}
+

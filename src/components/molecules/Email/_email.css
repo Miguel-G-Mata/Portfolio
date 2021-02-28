@@ -1,0 +1,81 @@
+
+.modal-wrapper {
+  background: white;
+  border: 1px solid #d0cccc;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+  margin: 100px auto 0;
+  transition: all .8s;
+  width: 50%;
+
+}
+
+.modal-header {
+  background: linear-gradient(90deg, rgb(15, 15, 20) 0%, rgb(1, 14, 75) 100%);
+  height: 7vh;
+  line-height: 40px;
+  padding: 5px 20px;
+}
+
+.modal-header h3 {
+  color: white;
+  float: center;
+  margin: 0;
+  padding: 0;
+}
+
+.close-modal-btn{
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.modal-footer {
+  height: 60px;
+  padding: 15px;
+  background: linear-gradient(90deg, rgb(15, 15, 20) 0%, rgb(1, 14, 75) 100%);
+}
+.btn-info{
+  background-color: #679cff;
+}
+
+  .spinner {
+    animation: spinner infinite .9s linear;
+    height: 90%;
+  }
+  .spinner:focus{
+    border:none;
+  }
+  @keyframes spinner {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .form-error{
+    color: #F42B4B;
+    text-align: center;
+  }
+  @media screen and (max-width: 700px){
+    .login-container{
+      justify-content: center;
+      background-image: none;
+    }
+    .card {
+      width: 80%;
+      align-self: center;
+    }
+    
+  }
+  @media screen and (max-width: 350px){
+    .card {
+      width: 100%;
+    }
+    
+  }
